@@ -1,4 +1,4 @@
-
+import enumex.*;
 
 class A{
 	
@@ -9,7 +9,10 @@ class A{
 public class B extends A{
 	void m() throws ArithmeticException{
 		
-		System.out.println("Class B");
+		Enum2[] e=Enum2.values();
+		for(Enum2 e1:e){
+			System.out.println(e1);
+		}
 	}
 	public static void main(String[] args) {
 		B b= new B();
