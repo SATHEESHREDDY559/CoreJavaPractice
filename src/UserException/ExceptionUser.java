@@ -1,30 +1,31 @@
 package UserException;
-class A extends Exception{
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+
+import java.io.File;
+
+class A extends Throwable{
 	
 	A(String msg){
 		super(msg);
+		//new Exception(msg);
 	}
 	
 }
 
-
-
-
-public class ExceptionUser {
+public class ExceptionUser  {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		try{
+		System.out.println(1/0);
+		File f= new File("/ajflka");
+		
+		/*try{
 			throw new A("Exceptionafafaf");
+			System.out.println(1/0);
 			
-		}catch (A e) {
+			
+		}catch (Exception e) {
 			e.printStackTrace();
 		}
-
+		System.out.println(1/0);*/
 	}
 
 }

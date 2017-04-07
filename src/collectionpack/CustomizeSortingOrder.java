@@ -2,7 +2,7 @@ package collectionpack;
 
 import java.util.Comparator;
 
-public class CustomizeSortingOrder implements Comparator<Object> {
+public class CustomizeSortingOrder implements Comparator {
 
 	@Override
 	public int compare(Object arg0, Object arg1) {

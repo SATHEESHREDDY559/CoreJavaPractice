@@ -14,7 +14,7 @@ public class B extends A{
 			System.out.println(e1);
 		}
 	}
-	public static void main(String[] args) {
+	public final static void main(String[] args)  {
 		B b= new B();
 		b.m();
 	}
