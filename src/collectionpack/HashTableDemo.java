@@ -1,5 +1,7 @@
 package collectionpack;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Hashtable;
 
 class Temp{
@@ -31,6 +33,8 @@ public class HashTableDemo {
 		ht.put(t1,11);
 		ht.put(t2,22);
 		ht.put(t3,44);
+		
+		
 	System.out.println(ht);
 		
 

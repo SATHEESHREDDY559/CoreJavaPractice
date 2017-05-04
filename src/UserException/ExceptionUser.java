@@ -13,19 +13,19 @@ class A extends Throwable{
 
 public class ExceptionUser  {
 
-	public static void main(String[] args) {
-		System.out.println(1/0);
-		File f= new File("/ajflka");
+	public static void main(String[] args)throws A {
+		/*System.out.println(1/0);
+		File f= new File("/ajflka");*/
 		
-		/*try{
+		try{
 			throw new A("Exceptionafafaf");
-			System.out.println(1/0);
+			//System.out.println(1/0);
 			
 			
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-		System.out.println(1/0);*/
+		System.out.println(1/0);
 	}
 
 }
