@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 
 public class LongSubString {
 	public static void main(String[] args) {
-		String s = "abcdaqwerty";
+		String s = "abcdcdafdsfkljs";
 		LinkedHashMap<Character, Integer> charMap = new LinkedHashMap<Character, Integer>();
 		char[] charArray = s.toCharArray();
 		String longestSubStrin = "";
